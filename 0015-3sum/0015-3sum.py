@@ -17,7 +17,7 @@ class Solution(object):
                         k-=1
                     j+=1
                     k-=1
-                elif sum > 0:
+                elif ans > 0:
                     k-=1
                 else:
                     j+=1
