@@ -4,8 +4,8 @@ class Solution(object):
             return ""
         for i in range(len(strs[0])):
             char = strs[0][i]
-            for s in strs[1:]:
-                if i >= len(s) or s[i] != char:
+            for s in strs:
+                if i > len(s)-1 or s[i] != char:
                     return s[:i]
         return strs[0]
         """
